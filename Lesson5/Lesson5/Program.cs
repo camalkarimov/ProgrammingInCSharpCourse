@@ -150,7 +150,7 @@ namespace Lesson5
                 Prime = true;
             }
         }
-        static void Main9(string[] args)
+        static void Main(string[] args)
         {
             //Task9 
 
@@ -158,7 +158,7 @@ namespace Lesson5
 
             Console.Write("Input a positive integer: ");
             n = Convert.ToInt32(Console.ReadLine());
-            for (i = 3; i <= n / 2; i++)
+            for (i = 0; i <= n / 2; i++)
             {
                 prm1 = 1;
                 prm2 = 1;
@@ -183,7 +183,7 @@ namespace Lesson5
                 Console.Write("This number is prime", n);
             }
         }
-        static void Main(string[] args)
+        static void Main10(string[] args)
         {
             //Task10
 
