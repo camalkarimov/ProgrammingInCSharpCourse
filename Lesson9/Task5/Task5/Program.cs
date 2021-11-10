@@ -37,7 +37,7 @@ namespace Task5
 
         public class Person
         {
-            protected string Name { get; set; }
+            protected string Name;
 
             public Person(string name)
             {
